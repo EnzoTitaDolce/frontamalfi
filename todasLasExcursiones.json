@@ -1,0 +1,31 @@
+[
+    {
+        "excursion": "Excursion a Capri y Anacapri",
+        "duración": "10 HORAS",
+        "idioma": "ESPAÑOL",
+        "comida": "No incluye comida",
+        "precio": "90 €"
+
+    },
+    {
+        "excursion": "Excursion a Capri",
+        "duración": "9 HORAS",
+        "idioma": "ESPAÑOL",
+        "comida": "Si",
+        "precio": "€ 130"
+    },
+    {
+        "excursion": "Excursion a Capri",
+        "duración": "9 HORAS",
+        "idioma": "ESPAÑOL",
+        "comida": "Si",
+        "precio": "€ 130"
+    },
+    {
+        "excursion": "Excursion a Capri",
+        "duración": "9 HORAS",
+        "idioma": "ESPAÑOL",
+        "comida": "Si",
+        "precio": "€ 130"
+    }
+]

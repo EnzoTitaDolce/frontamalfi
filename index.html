@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <title>AmalfiExcursiones</title>
+    <script>
+        function validateForm() {
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+          var usernameError = document.getElementById("usernameError");
+          var passwordError = document.getElementById("passwordError");
+          var valid = true;
+          
+          // Validar nombre de usuario
+          if (username === "") {
+            usernameError.innerText = "El nombre de usuario es requerido.";
+            valid = false;
+          } else {
+            usernameError.innerText = "";
+          }
+          
+          // Validar contraseña
+          if (password === "") {
+            passwordError.innerText = "La contraseña es requerida.";
+            valid = false;
+          } else {
+            passwordError.innerText = "";
+          }
+          
+          return valid;
+        }
+      </script>
+    <script src="/funciones/funciones.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar_container">
+                <li> <h1>AmalfiExcursiones</h1></li>
+                <li><h2>Nuestras Excursiones... <a href="html/excursiones.html">AQUÍ</a></h2></li>
+                <li><form id="login" action="http://127.0.0.1:5000/login" method="POST" onsubmit="return validateForm()">
+                    <div id="usuario">
+                      <label for="username">Correo Electrónico:</label>
+                      <input type="text" id="username" name="username" required><br>
+                      <span id="usernameError" class="error"></span><br>
+                    </div>
+                    <div id="contra">
+                      <label for="password">Contraseña:</label>
+                      <input type="password" id="password" name="password" required><br>
+                      <span id="passwordError" class="error"></span><br>
+                    </div>
+                      <input type="submit" value="Iniciar sesión">
+                      <a href="/html/registro.html">Registrarme</a>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="banner">
+        <img src="../imagenes/imagen10.jpg" alt="">
+        <div class="texto-encima">
+            Costa Amalfitana
+        </div>
+        <div class="texto-encima2">
+            Muchos tipos de excursiones y aventuras
+        </div>
+    </section>
+    <section id="clima">
+    <div id="ww_ec2bde733af5e" v='1.3' loc='id' a='{"t":"responsive","lang":"es","sl_lpl":1,"ids":["wl4336"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image",
+    "cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: 
+    <a href="https://wetterlabs.de/wetter_amalfi/woche/" id="ww_ec2bde733af5e_u" target="_blank">wettervorhersage 7 tage</a></div>
+    <script async src="https://app1.weatherwidget.org/js/?id=ww_ec2bde733af5e"></script>
+    </section>
+    <section id="categorias">
+        
+            <ul class="listacategorias">
+                
+                <li id="paseos"  onclick="render('Paseos en barco')"><a href="#categorias">  Paseos en barco</a></li>
+                <li id="visitas" onclick="render('Visitas guiadas')" ><a href="#categorias"> Visitas guiadas y free tours </a></li>
+                <li id="accion" onclick="render('Acción y naturaleza')"><a href="#categorias"> Acción y naturaleza </a></li>
+                <li id="gastronomia" onclick="render('Gastronomía y enoturismo')" ><a href="#categorias"> Gastronomia y turismo </a></li>
+                <li id="espectaculos" onclick="render('espectaculos y entradas')" ><a href="#categorias"> Espectáculos y entradas </a></li>
+            </ul>
+        
+    </section>  
+
+  
+    <section id="lista-excursiones">
+       
+    </section>
+    <section id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Khonj4jwBvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section id="galeria">
+            <a type="submit" href="html/galeria.html" id="boton-galeria"><h1>GALERIA DE IMAGENES</h1></a>
+    </section>
+    
+
+    
+    <footer>
+            <ul>
+                <li><a href="/html/quienes-somos.html">¿Quiénes somos?</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+                <li><a href="www.facebook.com">Facebook</a></li>
+                <li><a href="www.instagram.com">Instagram</a></li>
+            </ul>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body, html{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 72px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+}
+nav{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.navbar_container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 0; 
+    margin: 0px;
+    background-color: #7A8D9B;
+    color:white;
+}
+.navbar_container li{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+.navbar_container li h1{
+    color: #DABEB6;
+}
+.navbar_container li h1:hover{
+   letter-spacing: 2px;
+   transition: all 0.7s;
+}
+#container{
+    background-color: RGB(245, 244, 245);
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    
+    
+}
+.container_imagenes{
+    width: 90% ;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.container_imagenes img{
+    object-fit: cover;
+    width: 90%;
+    height: auto;
+}
+
+@media all and (min-width:600px) and (max-width:1023px){
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body, html{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    position: relative;
+    display: block;
+}
+nav{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+.navbar_container{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar_container li{
+    margin: 0px;
+    display: block;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 50px;
+    display:block;
+    
+}
+.container_imagenes{
+    width: 90% ;
+    height: auto;
+    text-align: center;
+}
+.container_imagenes img{
+    object-fit: cover;
+    width: 90%;
+    height: auto;
+}
+
+}
+
+@media all and (max-width: 599px) {
+    body, html{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        width: 100%;
+        height: auto;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px;
+        position: relative;
+        display: block;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        display: block;
+    }
+    .navbar_container{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .navbar_container li{
+        margin: 0px;
+        display: block;
+    }
+    
+    #container{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        margin-top: 50px;
+        display:block;
+        
+    }
+    .container_imagenes{
+        width: 90% ;
+        height: auto;
+        text-align: center;
+    }
+    .container_imagenes img{
+        object-fit: cover;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    
+    }
+
+

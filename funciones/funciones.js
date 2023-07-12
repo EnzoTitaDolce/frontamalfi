@@ -6,7 +6,7 @@ let listaDeExcursiones = [
         comida: "No incluye comida",
         precio: "90 €",
         categoria: "Paseos en barco",
-        imagen:"../imagenes/imagen1.jpg"
+        imagen:"imagenes/imagen1.jpg"
     },
     {
         excursion: "Excursion a la isla de Capri",
@@ -15,7 +15,7 @@ let listaDeExcursiones = [
         comida: "No incluye comida",
         precio: "€ 75",
         categoria: "Paseos en barco",
-        imagen:"../imagenes/imagen2.jpg"
+        imagen:"imagenes/imagen2.jpg"
     },
     {
         excursion: "Excursion en barco por la Costa Amalfitana",
@@ -24,7 +24,7 @@ let listaDeExcursiones = [
         comida: "Incluye almuerzo y merienda",
         precio: "€ 120",
         categoria: "Paseos en barco",
-        imagen:"../imagenes/imagen3.jpg"
+        imagen:"imagenes/imagen3.jpg"
     },
     {
         excursion: "Paseo en barco al atardecer",
@@ -33,7 +33,7 @@ let listaDeExcursiones = [
         comida: "Incluye merienda",
         precio: "€ 105",
         categoria: "Paseos en barco",
-        imagen:"../imagenes/imagen4.jpg"
+        imagen:"imagenes/imagen4.jpg"
     },
     {
         excursion: "Paseo en barco por la peninsula de Sorrento",
@@ -42,7 +42,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 66",
         categoria: "Paseos en barco",
-        imagen:"../imagenes/imagen5.jpg"
+        imagen:"imagenes/imagen5.jpg"
     },
     {
         excursion: "Tour gastronomico por Salerno",
@@ -51,7 +51,7 @@ let listaDeExcursiones = [
         comida: "Incluye desgustaciones",
         precio: "€ 79",
         categoria: "Gastronomía y enoturismo",
-        imagen:"../imagenes/imagen6.jpg"
+        imagen:"imagenes/imagen6.jpg"
     },
     {
         excursion: "Taller de pizzas",
@@ -60,7 +60,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 65",
         categoria: "Gastronomía y enoturismo",
-        imagen:"../imagenes/imagen7.jpg"
+        imagen:"imagenes/imagen7.jpg"
     },
     {
         excursion: "Tour de comida callejera por Sorrento",
@@ -69,7 +69,7 @@ let listaDeExcursiones = [
         comida: "Incluye desgustaciones",
         precio: "€ 65",
         categoria: "Gastronomía y enoturismo",
-        imagen:"../imagenes/imagen8.jpg"
+        imagen:"imagenes/imagen8.jpg"
     },
     {
         excursion: "Clase de cocina italiana en Sorrento",
@@ -78,7 +78,7 @@ let listaDeExcursiones = [
         comida: "Incluye un almuerzo",
         precio: "€ 85",
         categoria: "Gastronomía y enoturismo",
-        imagen:"../imagenes/imagen9.jpg"
+        imagen:"imagenes/imagen9.jpg"
     },
     {
         excursion: "Trekking por el Sendero del Príncipe",
@@ -87,7 +87,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 15",
         categoria: "Acción y naturaleza",
-        imagen:"../imagenes/imagen10.jpg"
+        imagen:"imagenes/imagen10.jpg"
     },
     {
         excursion: "Senderismo por el Vesubio",
@@ -96,7 +96,7 @@ let listaDeExcursiones = [
         comida: "Incluye una merienda",
         precio: "€ 43",
         categoria: "Acción y naturaleza",
-        imagen:"../imagenes/imagen11.jpg"
+        imagen:"imagenes/imagen11.jpg"
     },
     {
         excursion: "Snorkel en Sorrento",
@@ -105,7 +105,7 @@ let listaDeExcursiones = [
         comida: "Incluye una merienda",
         precio: "€ 73",
         categoria: "Acción y naturaleza",
-        imagen:"../imagenes/imagen12.jpg"
+        imagen:"imagenes/imagen12.jpg"
     },
     {
         excursion: "Senderismo por el monte Faito",
@@ -114,7 +114,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 26",
         categoria: "Acción y naturaleza",
-        imagen:"../imagenes/imagen1.jpg"
+        imagen:"imagenes/imagen1.jpg"
     },
     {
         excursion: "Senderismo por el monte San Liberatore",
@@ -123,7 +123,7 @@ let listaDeExcursiones = [
         comida: "Incluye una merienda",
         precio: "€ 49",
         categoria: "Acción y naturaleza",
-        imagen:"../imagenes/imagen2.jpg"
+        imagen:"imagenes/imagen2.jpg"
     },
     {
         excursion: "Tirolesa en la Costa Amalfitana",
@@ -132,7 +132,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 40",
         categoria: "Acción y naturaleza",
-        imagen:"../imagenes/imagen3.jpg"
+        imagen:"imagenes/imagen3.jpg"
     },
     {
         excursion: "Visita guiada por Pompeya",
@@ -141,7 +141,7 @@ let listaDeExcursiones = [
         comida: "Incluye un almuerzo",
         precio: "€ 55",
         categoria: "Visitas guiadas",
-        imagen:"../imagenes/imagen4.jpg"
+        imagen:"imagenes/imagen4.jpg"
     },
     {
         excursion: "Visita guiada por Salerno",
@@ -150,7 +150,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 49",
         categoria: "Visitas guiadas",
-        imagen:"../imagenes/imagen5.jpg"
+        imagen:"imagenes/imagen5.jpg"
     },
     {
         excursion: "Tour privado por Positano",
@@ -159,7 +159,7 @@ let listaDeExcursiones = [
         comida: "Incluye un almuerzo y una merienda",
         precio: "€ 210 (por grupo)",
         categoria: "Visitas guiadas",
-        imagen:"../imagenes/imagen6.jpg"
+        imagen:"imagenes/imagen6.jpg"
     },
     {
         excursion: "Visita guiada por el castillo de Lettere",
@@ -168,7 +168,7 @@ let listaDeExcursiones = [
         comida: "No incluye comidas",
         precio: "€ 30",
         categoria: "Visitas guiadas",
-        imagen:"../imagenes/imagen7.jpg"
+        imagen:"imagenes/imagen7.jpg"
     },
     {
         excursion: "Visita guiada por la villa de Oplontis",
@@ -177,7 +177,7 @@ let listaDeExcursiones = [
         comida: "Incluye un almuerzo y una merienda",
         precio: "€ 200 (por grupo)",
         categoria: "Visitas guiadas",
-        imagen:"../imagenes/imagen8.jpg"
+        imagen:"imagenes/imagen8.jpg"
     },
     {
         excursion: "Entrada a la villa romana de Oplontis",
@@ -186,7 +186,7 @@ let listaDeExcursiones = [
         comida: "-",
         precio: "€ 17",
         categoria: "espectaculos y entradas",
-        imagen:"../imagenes/imagen9.jpg"
+        imagen:"imagenes/imagen9.jpg"
     },
     {
         excursion: "Concierto de ópera en el museo Correale",
@@ -195,7 +195,7 @@ let listaDeExcursiones = [
         comida: "-",
         precio: "€ 45",
         categoria: "espectaculos y entradas",
-        imagen:"../imagenes/imagen10.jpg"
+        imagen:"imagenes/imagen10.jpg"
     }
 ]
 
@@ -210,14 +210,14 @@ let espectaculos = document.getElementById('espectaculos');
 function render (valor){
     
     let seccionLista = document.getElementById('lista-excursiones');
-    let results = listaDeExcursiones.filter(excursion=>excursion.categoria== valor)
-    seccionLista.innerHTML=``;
+    let results = listaDeExcursiones.filter(excursion=>excursion.categoria == valor)
+    seccionLista.innerHTML='';
 
     for(let i=0;i<results.length;i++){
-    //for(let result of results){
+    //for(let result in results){
         seccionLista.innerHTML+=`<div class="card">
         <div class="img-card">
-            <img src=${results[i].imagen} alt="">
+            <img src="${results[i].imagen}" alt="">
         </div>
         <div class="info-card">
             <h1>${results[i].excursion}</h1>

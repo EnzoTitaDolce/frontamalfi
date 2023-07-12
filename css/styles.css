@@ -212,8 +212,7 @@ span{
     grid-template-columns: repeat(2,auto);
     justify-content: center;
     column-gap: 60px;
-    
-    
+    background-color: #1A242D;
 }
 .card{
     box-shadow: 0 0 0.675rem 0.075rem rgba(0,0,0,.2);
@@ -222,30 +221,30 @@ span{
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    background-color: #7A8D9B;
 }
 .img-card{
-    width: 40%;
-    height: 70%;
-    margin-left: 10px;
+    width: 30%;
+    margin: 10px;
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 .img-card img{
     object-fit: cover;
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 130px;
     border-radius: 5px;
 }
 .info-card h1, .info-card p{
-    text-align: center  ;
+    text-align: center;
+    margin-bottom: 5px;
 }
 .info-card{
-    width: 60%;
+    width: 70%;
     font-weight: bold;
-    
 }
 .info-card .precio{
-    color: #e47c7c;
+    color: #000000;
 }
 
 footer{

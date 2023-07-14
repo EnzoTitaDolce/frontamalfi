@@ -63,7 +63,7 @@
 </body>
 <script>
    async function render(){
-      await  fetch('http://127.0.0.1:5000/excursiones').then(respuesta=>respuesta.json())
+      await  fetch('https://enzotitadolce.pythonanywhere.com/excursiones').then(respuesta=>respuesta.json())
         .then(excursiones=>{
             console.log(excursiones)
             let tabla=document.getElementById('tablaexcursiones');

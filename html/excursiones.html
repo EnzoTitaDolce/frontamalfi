@@ -69,12 +69,12 @@
             let tabla=document.getElementById('tablaexcursiones');
             for(let exc of excursiones){
             tabla.innerHTML+=`<tr>
-                        <td>${exc[1]}</td>
-                        <td>${exc[2]}</td>
-                        <td>${exc[3]}</td>
-                        <td>${exc[4]}</td>
-                        <td>${exc[5]}</td>                     
-                        <td>${exc[6]}</td>
+                        <td>${exc['salida']}</td>
+                        <td>${exc['destino']}</td>
+                        <td>${exc['fechaSalida']}</td>
+                        <td>${exc['fechaLlegada']}</td>
+                        <td>${exc['precio']}</td>                     
+                        <td>${exc['cupo']}</td>
                     </tr>`
             }
         })
